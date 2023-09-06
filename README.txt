@@ -1,3 +1,9 @@
+touch styles.css
+
+mkdir src
+
+touch src/index.html
+
 npm install -D tailwindcss
 
 npx tailwindcss init
@@ -18,17 +24,19 @@ module.exports = {
 npx tailwindcss -i styles.css -o ./src/css/styles.css --watch
 
 
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
 </body>
 </html>
 
+
+Instalação Fonts Awesome
+
+cdnjs.com
