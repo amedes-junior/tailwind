@@ -37,6 +37,4 @@ npx tailwindcss -i styles.css -o ./src/css/styles.css --watch
 </html>
 
 
-Instalação Fonts Awesome
-
-cdnjs.com
+Instalação Fonts Awesome: cdnjs.com
